@@ -31,7 +31,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 50px;
 }
 .header-user {
   display: flex;
@@ -40,9 +41,10 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  margin-left: 115px;
+  margin-left: 155px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 .header-item {
   margin-right: 32px;
@@ -69,17 +71,18 @@ body {
 .hero {
   width: 1400px;
   margin: 0 auto;
-  background-color: #0EB4C1; 
+  background-color: #0EB4C1;
+   
 }
 .hero-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  padding-top: 30px;
+  align-items: center;
+  
 }
 .left-wrapper {
   width: 600px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .left-title {
   margin-top: 0;
@@ -132,11 +135,13 @@ body {
 }
 .hero-img {
   width: 423px;
-  margin-top: 30px;
+}
+.intro {
+  padding-top: 120px;
 }
 .intro-title {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 0;
   margin-bottom: 56px;
   font-size: 36px;
 }
@@ -171,9 +176,12 @@ body {
     line-height: 24px;
     color: #444444;
   }
+  .span-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 135px;
+  }
   .header-span-last {
-    margin-left: 480px;
-    margin-bottom: 120px;
     padding: 14px 24px;
     border-radius: 8px;
     background-color: #DE2E54;
@@ -202,14 +210,12 @@ body {
   }
   .last-title {
     text-align: center;
-    margin-top: 135px;
-    padding-top: 64px;
     color: #fff;
-    margin-bottom: 52px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
-  .other-box {
-    margin-bottom: 88px;
-  }
+
   .other-link {
     text-align: center;
     margin-left: 356px;
